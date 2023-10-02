@@ -1,4 +1,4 @@
-package com.punckedbackend.trunk
+package com.punchedbackend.trunk
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
