@@ -1,0 +1,9 @@
+POST http://127.0.0.1:8080/apis/v1/user
+Content-Type: application/json
+
+{
+  "text":"test"
+}
+
+#######
+GET http://127.0.0.1:8080/apis/v1/user/e32d1a37-ee1e-4bb8-b9d3-38791599cf4e
