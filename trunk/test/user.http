@@ -1,9 +1,17 @@
+###
+GET http://localhost:8080/ping
+
+#####
 POST http://127.0.0.1:8080/apis/v1/user
 Content-Type: application/json
 
 {
-  "text":"test"
+  "name": "test",
+  "email": "test@example.com",
+  "phone": "010-889790878",
+  "username": "username",
+  "password": "password"
 }
 
 #######
-GET http://127.0.0.1:8080/apis/v1/user/e32d1a37-ee1e-4bb8-b9d3-38791599cf4e
+GET http://127.0.0.1:8080/apis/v1/user/94516e8d-244b-430b-abbc-905943b87000
